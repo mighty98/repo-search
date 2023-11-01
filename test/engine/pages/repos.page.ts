@@ -63,6 +63,12 @@ class Repos extends App {
     return await List.details({ includeHeader, ...listParams });
   }
 
+  /**
+   * Function to return repo details like commits, forks and user bio. If error while fetching details, return error
+   * @param {{key:string, value:string}|number|Element}  repo can be the row itself or position (row number) or you can pass column name and value
+   * @param {'close'|'ok'} closeBy  how to close the details popup
+   * @returns {Promise<string | {details: {committers: string; forkedUser: string; userBio: string;}; api: object[];}>} Promise<string | {details: {committers: string; forkedUser: string; userBio: string;}; api: object[];}>
+   */
   async repoDetails(params: { repo: { key: string; value: string } | number | Element; closeBy?: 'close' | 'ok' }) {
     const { repo, closeBy } = params;
     const tr = isElement(repo) ? repo : await this.repo({ repo });
