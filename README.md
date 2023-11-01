@@ -37,5 +37,9 @@ In the project directory, you can run:
 
 ### `npm run test -- --suite regression`
 
-To see test result, once the test is completed\
-Open [http://127.0.0.1:5500/result/timeline-report.html](http://127.0.0.1:5500/result/timeline-report.html) to view it in your browser.
+We are using wdio-timeline-reporter for html report.\
+This is not currently hosted and so, to see the html report please open the html file inside test -> result folder\
+
+If you see issues with VPN, please try below command to bypass\
+
+### `export NODE_TLS_REJECT_UNAUTHORIZED=0`
