@@ -36,3 +36,6 @@ Open [http://localhost:8000](http://localhost:8000) to view it in your browser.
 In the project directory, you can run:
 
 ### `npm run test -- --suite regression`
+
+To see test result, once the test is completed\
+Open [http://127.0.0.1:5500/result/timeline-report.html](http://127.0.0.1:5500/result/timeline-report.html) to view it in your browser.
