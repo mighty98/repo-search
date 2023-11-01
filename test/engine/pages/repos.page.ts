@@ -28,7 +28,7 @@ class Repos extends App {
 
   /**
    * Function to get the metadata details like search keyword, rows per page, page number and total result
-   * @returns {Promise<void>} return Promise<void>
+   * @returns {Promise<{search:string, rows: number, page: number, total: number}>} return Promise<{search:string, rows: number, page: number, total: number}>
    */
   async meta() {
     const search = await Search.get();
@@ -40,6 +40,11 @@ class Repos extends App {
     return { search, rows: Number(rows), page, total: Number(total) };
   }
 
+  /**
+   * Function to get a single repo record from the list of search result
+   * @param {{key:string, value:string}|number}  repo can be the position (row number) or you can pass column name and value
+   * @returns {Promise<Element>} return Promise<Element>
+   */
   async repo(params: { repo: { key: string; value: string } | number }) {
     const { repo } = params;
     const listParams = typeof repo === 'number' ? { row: repo } : { entry: { column: repo.key, value: repo.value } };
