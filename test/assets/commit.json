@@ -1,0 +1,182 @@
+[
+  {
+    "sha": "3667102d91bba05afcb777aa685b1014f521e9bc",
+    "node_id": "C_kwDOAWRolNoAKDM2NjcxMDJkOTFiYmEwNWFmY2I3NzdhYTY4NWIxMDE0ZjUyMWU5YmM",
+    "commit": {
+      "author": {
+        "name": "Protobuf Team Bot",
+        "email": "protobuf-github-bot@google.com",
+        "date": "2023-10-30T17:11:32Z"
+      },
+      "committer": {
+        "name": "Copybara-Service",
+        "email": "copybara-worker@google.com",
+        "date": "2023-10-30T17:17:00Z"
+      },
+      "message": "Remove `virtual` keyword. There are no overrides.\n\nPiperOrigin-RevId: 577881969",
+      "tree": {
+        "sha": "aefa84883f13b23a5f15c7c086ffe1e308944c12",
+        "url": "https://api.github.com/repos/protocolbuffers/protobuf/git/trees/aefa84883f13b23a5f15c7c086ffe1e308944c12"
+      },
+      "url": "https://api.github.com/repos/protocolbuffers/protobuf/git/commits/3667102d91bba05afcb777aa685b1014f521e9bc",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/protocolbuffers/protobuf/commits/3667102d91bba05afcb777aa685b1014f521e9bc",
+    "html_url": "https://github.com/protocolbuffers/protobuf/commit/3667102d91bba05afcb777aa685b1014f521e9bc",
+    "comments_url": "https://api.github.com/repos/protocolbuffers/protobuf/commits/3667102d91bba05afcb777aa685b1014f521e9bc/comments",
+    "author": {
+      "login": "protobuf-github-bot",
+      "id": 106703886,
+      "node_id": "U_kgDOBlwsDg",
+      "avatar_url": "https://avatars.githubusercontent.com/u/106703886?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/protobuf-github-bot",
+      "html_url": "https://github.com/protobuf-github-bot",
+      "followers_url": "https://api.github.com/users/protobuf-github-bot/followers",
+      "following_url": "https://api.github.com/users/protobuf-github-bot/following{/other_user}",
+      "gists_url": "https://api.github.com/users/protobuf-github-bot/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/protobuf-github-bot/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/protobuf-github-bot/subscriptions",
+      "organizations_url": "https://api.github.com/users/protobuf-github-bot/orgs",
+      "repos_url": "https://api.github.com/users/protobuf-github-bot/repos",
+      "events_url": "https://api.github.com/users/protobuf-github-bot/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/protobuf-github-bot/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": null,
+    "parents": [
+      {
+        "sha": "e56a9099f0dad5980d1990dc6a164402abaa470c",
+        "url": "https://api.github.com/repos/protocolbuffers/protobuf/commits/e56a9099f0dad5980d1990dc6a164402abaa470c",
+        "html_url": "https://github.com/protocolbuffers/protobuf/commit/e56a9099f0dad5980d1990dc6a164402abaa470c"
+      }
+    ]
+  },
+  {
+    "sha": "e56a9099f0dad5980d1990dc6a164402abaa470c",
+    "node_id": "C_kwDOAWRolNoAKGU1NmE5MDk5ZjBkYWQ1OTgwZDE5OTBkYzZhMTY0NDAyYWJhYTQ3MGM",
+    "commit": {
+      "author": {
+        "name": "Eric Salo",
+        "email": "salo@google.com",
+        "date": "2023-10-30T16:39:19Z"
+      },
+      "committer": {
+        "name": "Copybara-Service",
+        "email": "copybara-worker@google.com",
+        "date": "2023-10-30T16:43:59Z"
+      },
+      "message": "upb: minimize uses of :message_types\n\nPiperOrigin-RevId: 577872176",
+      "tree": {
+        "sha": "dae642176ecd0ec3732bd7310ad03009d84a1d60",
+        "url": "https://api.github.com/repos/protocolbuffers/protobuf/git/trees/dae642176ecd0ec3732bd7310ad03009d84a1d60"
+      },
+      "url": "https://api.github.com/repos/protocolbuffers/protobuf/git/commits/e56a9099f0dad5980d1990dc6a164402abaa470c",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/protocolbuffers/protobuf/commits/e56a9099f0dad5980d1990dc6a164402abaa470c",
+    "html_url": "https://github.com/protocolbuffers/protobuf/commit/e56a9099f0dad5980d1990dc6a164402abaa470c",
+    "comments_url": "https://api.github.com/repos/protocolbuffers/protobuf/commits/e56a9099f0dad5980d1990dc6a164402abaa470c/comments",
+    "author": {
+      "login": "ericsalo",
+      "id": 93227906,
+      "node_id": "U_kgDOBY6Lgg",
+      "avatar_url": "https://avatars.githubusercontent.com/u/93227906?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ericsalo",
+      "html_url": "https://github.com/ericsalo",
+      "followers_url": "https://api.github.com/users/ericsalo/followers",
+      "following_url": "https://api.github.com/users/ericsalo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ericsalo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ericsalo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ericsalo/subscriptions",
+      "organizations_url": "https://api.github.com/users/ericsalo/orgs",
+      "repos_url": "https://api.github.com/users/ericsalo/repos",
+      "events_url": "https://api.github.com/users/ericsalo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ericsalo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": null,
+    "parents": [
+      {
+        "sha": "6a16ab614704967b80f91b0c2b0fa886c55116e7",
+        "url": "https://api.github.com/repos/protocolbuffers/protobuf/commits/6a16ab614704967b80f91b0c2b0fa886c55116e7",
+        "html_url": "https://github.com/protocolbuffers/protobuf/commit/6a16ab614704967b80f91b0c2b0fa886c55116e7"
+      }
+    ]
+  },
+  {
+    "sha": "6a16ab614704967b80f91b0c2b0fa886c55116e7",
+    "node_id": "C_kwDOAWRolNoAKDZhMTZhYjYxNDcwNDk2N2I4MGY5MWIwYzJiMGZhODg2YzU1MTE2ZTc",
+    "commit": {
+      "author": {
+        "name": "Jason Lunn",
+        "email": "jason.lunn@gmail.com",
+        "date": "2023-10-30T14:36:09Z"
+      },
+      "committer": {
+        "name": "Copybara-Service",
+        "email": "copybara-worker@google.com",
+        "date": "2023-10-30T14:38:04Z"
+      },
+      "message": "Check that ffi-compiler loads before using it to define tasks. (#14538)\n\nFixes #14509\n\nCloses #14538\n\nCOPYBARA_INTEGRATE_REVIEW=https://github.com/protocolbuffers/protobuf/pull/14538 from JasonLunn:fix_14509 a3f9d0bd4f1f8036253c7a794a61e8cc84b4483c\nPiperOrigin-RevId: 577837541",
+      "tree": {
+        "sha": "2bc69d8017fe97175daad030cf530c8955d0a807",
+        "url": "https://api.github.com/repos/protocolbuffers/protobuf/git/trees/2bc69d8017fe97175daad030cf530c8955d0a807"
+      },
+      "url": "https://api.github.com/repos/protocolbuffers/protobuf/git/commits/6a16ab614704967b80f91b0c2b0fa886c55116e7",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/protocolbuffers/protobuf/commits/6a16ab614704967b80f91b0c2b0fa886c55116e7",
+    "html_url": "https://github.com/protocolbuffers/protobuf/commit/6a16ab614704967b80f91b0c2b0fa886c55116e7",
+    "comments_url": "https://api.github.com/repos/protocolbuffers/protobuf/commits/6a16ab614704967b80f91b0c2b0fa886c55116e7/comments",
+    "author": {
+      "login": "JasonLunn",
+      "id": 778854,
+      "node_id": "MDQ6VXNlcjc3ODg1NA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/778854?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/JasonLunn",
+      "html_url": "https://github.com/JasonLunn",
+      "followers_url": "https://api.github.com/users/JasonLunn/followers",
+      "following_url": "https://api.github.com/users/JasonLunn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/JasonLunn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/JasonLunn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/JasonLunn/subscriptions",
+      "organizations_url": "https://api.github.com/users/JasonLunn/orgs",
+      "repos_url": "https://api.github.com/users/JasonLunn/repos",
+      "events_url": "https://api.github.com/users/JasonLunn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/JasonLunn/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": null,
+    "parents": [
+      {
+        "sha": "c9f9d991720392c6f7a438a92c93b145417fffcf",
+        "url": "https://api.github.com/repos/protocolbuffers/protobuf/commits/c9f9d991720392c6f7a438a92c93b145417fffcf",
+        "html_url": "https://github.com/protocolbuffers/protobuf/commit/c9f9d991720392c6f7a438a92c93b145417fffcf"
+      }
+    ]
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "ts-node": { "files": true },
+  "compilerOptions": {
+    "outDir": "./.tsbuild/",
+    "sourceMap": false,
+    "module": "CommonJS",
+    "target": "ES2019",
+    "allowJs": true,
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "strictPropertyInitialization": true,
+    "strictNullChecks": true,
+    "experimentalDecorators": true,
+    "types": ["node", "@wdio/jasmine-framework", "@wdio/globals/types", "wdio-intercept-service"]
+  }
+}
