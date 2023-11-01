@@ -5,7 +5,7 @@ describe('Repo Search', () => {
   afterEach(async () => await Repos.refresh());
 
   // Test case to verify the default landing page
-  fit('Repo search: Verify default state', async () => {
+  it('Repo search: Verify default state', async () => {
     await Repos.verify({ search: '', total: 0, rowsPerPage: 10, hasNext: false, hasPrevious: false, empty: true });
   });
 

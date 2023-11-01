@@ -26,6 +26,10 @@ class Repos extends App {
     this.currentDetails = [];
   }
 
+  /**
+   * Function to get the metadata details like search keyword, rows per page, page number and total result
+   * @returns {Promise<void>} return Promise<void>
+   */
   async meta() {
     const search = await Search.get();
     const rows = await this.rowsPerPage();
