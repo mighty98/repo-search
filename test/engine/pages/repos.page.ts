@@ -51,6 +51,12 @@ class Repos extends App {
     return await List.record(listParams);
   }
 
+  /**
+   * Function to get single repo metadata (row values)
+   * @param {{key:string, value:string}|number|Element}  repo can be the row itself or position (row number) or you can pass column name and value
+   * @param {boolean} includeHeader if true will return the row details along with column name. Else will be a simple array of values
+   * @returns {Promise<any>} return Promise<any>
+   */
   async repoMeta(params: { repo: { key: string; value: string } | number | Element; includeHeader?: boolean }) {
     const { repo, includeHeader } = params;
     const listParams = isElement(repo) ? { record: repo } : typeof repo === 'number' ? { row: repo } : { entry: { column: repo.key, value: repo.value } };
