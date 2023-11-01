@@ -30,3 +30,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 Builds the production ready app using docker compose.\
 Open [http://localhost:8000](http://localhost:8000) to view it in your browser.
+
+## Test
+
+In the project directory, you can run:
